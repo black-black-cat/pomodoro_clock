@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pomodoro Clock</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<h1>Pomodoro Clock</h1>
+<div class="clock">
+    <p id="task"></p>
+
+    <p id="countdown"></p>
+</div>
+<div class="control">
+    <div class="break">
+        <p>Break Length</p>
+        <div class="break-control">
+            <button class="control-btn" id="break-diff">-</button>
+            <span id="break-length"></span>
+            <button class="control-btn" id="break-add">+</button>
+        </div>
+    </div>
+    <div class="session">
+        <p>Session Length</p>
+        <div class="session-control">
+            <button class="control-btn" id="session-diff">-</button>
+            <span id="session-length"></span>
+            <button class="control-btn" id="session-add">+</button>
+        </div>
+    </div>
+</div>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
